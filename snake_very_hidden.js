@@ -1,5 +1,5 @@
 var pos_kon=0;
-document.addEventListener('keydown', function(e){
+document.addEventListener('keyup', function(e){
   if (e.key == "ArrowUp" && (pos_kon == 0 || pos_kon == 1)){
     pos_kon++;
   }
