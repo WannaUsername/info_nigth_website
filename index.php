@@ -1,1 +1,3 @@
+<?php
 require "index.html";
+?>
