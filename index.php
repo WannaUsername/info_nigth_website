@@ -1,4 +1,9 @@
 <?php
 require "index.html";
-//echo "truc";
+echo "<p>truc</p>";
+session_start();  
+
+if (isset($_SESSION[""])){
+    echo "a";
+}
 ?>
