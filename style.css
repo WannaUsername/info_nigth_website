@@ -6,11 +6,29 @@ h1{
     text-align: center;
 }
 .botbox{
-    text-align :center;
+    margin: 0 auto;
     width : 400px;
     height: 300px;
     border: solid;
     border-color: black;
     border-width: 5px;
     background-color:aqua;
+    position:relative;
+}
+.deadbouton{
+    width : 35px;
+    height: 35px;
+    margin-right:0px;
+    margin-left:360px;
+    background-color:red;
+    border: solid;
+    border-color: black;
+    border-width:5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+
+}
+.crosspng{
+    width : 35px;
+    height: 35px;
 }

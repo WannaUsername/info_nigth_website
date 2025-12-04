@@ -1,0 +1,32 @@
+@font-face {
+  font-family: windings;
+  src: url(fonts/pixelated-wingdings.otf.woff2);
+}
+@font-face {
+  font-family: DOSVGA;
+  src: url(fonts/Perfect\ DOS\ VGA\ 437.woff2);
+}
+body{
+    background-color:black;
+    color:white;
+}
+p{
+    color:white;
+    font-size:30px;
+}
+.gastermessage{
+    
+    font-family:windings;
+    display: flex;
+}   
+.message{
+    
+    font-family:DOSVGA;
+    display: flex;
+}   
+.acronym{
+    font-family: DOSVGA;
+}
+div{
+    height: 30px;
+}
