@@ -1,0 +1,16 @@
+body{
+    background-color: #f7d1a0;
+}
+h1{
+    font-size:100px;
+    text-align: center;
+}
+.botbox{
+    text-align :center;
+    width : 400px;
+    height: 300px;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color:aqua;
+}
