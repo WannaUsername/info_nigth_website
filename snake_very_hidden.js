@@ -22,6 +22,7 @@ document.addEventListener('keydown', function(e){
   if ((pos_kon == 9)){
     pplay_snake();
   }
+  console.log(pos_kon);
 })
 
 function pplay_snake(){
