@@ -10,23 +10,61 @@ body{
     background-color:black;
     color:white;
 }
+.chat{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
 p{
     color:white;
     font-size:30px;
 }
 .gastermessage{
     
+    height: 30px;
     font-family:windings;
     display: flex;
+    background-color:black;
+    color : white;
+    font-size:30px;
+    border :hidden;
 }   
 .message{
-    
+    height: 30px;
     font-family:DOSVGA;
     display: flex;
+    background-color:black;
+    color : white;
+    font-size:30px;
+    border :hidden;
 }   
 .acronym{
     font-family: DOSVGA;
 }
-div{
-    height: 30px;
+
+.yourself{
+    color:white;
+    display: flex;
+    font-family:DOSVGA;
+    position:absolute;
+    left:0px;
+    bottom:30px;
+    height:30px;
 }
+.myacronym{
+    font-family: DOSVGA;
+    position:relative;
+    left:0px;
+    bottom:0px;
+}
+.mymessage{
+    
+    font-family:DOSVGA;
+    background-color:black;
+    color : white;
+    font-size:30px;
+    border :hidden;
+    position:relative;
+    width:1000px;
+    top:13px;
+}   
